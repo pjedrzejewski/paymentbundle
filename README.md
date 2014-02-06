@@ -94,7 +94,7 @@ ratepay_payment:
             security_code: 818b8d1351cb9098f293308f0b8f9dfb
 ```
 
-Configuration
+Services
 ------
 For listing all available models and tools please run:
 
