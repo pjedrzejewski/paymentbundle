@@ -15,7 +15,8 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.2",
-        "symfony/framework-bundle": "~2.1"
+        "symfony/framework-bundle": "~2.1",
+        "ratepay/payment-bundle": "1.0.*@dev"
     },
     "require-dev": {
         "symfony/yaml": "~2.1"
