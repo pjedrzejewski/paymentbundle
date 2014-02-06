@@ -76,7 +76,7 @@ public function registerBundles()
 ### Update your packages
 
 ```
-php composer.phar update lunetics/locale-bundle
+php composer.phar update ratepay/payment-bundle
 ```
 
 Configuration
