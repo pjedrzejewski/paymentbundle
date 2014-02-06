@@ -23,7 +23,7 @@
     "autoload": {
         "psr-0": { "Ratepay\Bundle\PaymentBundle": "" }
     },
-    "target-dir": "Ratepay\Bundle/PaymentBundle",
+    "target-dir": "Ratepay/Bundle/PaymentBundle",
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
