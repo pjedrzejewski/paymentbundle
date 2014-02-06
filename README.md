@@ -51,6 +51,34 @@ class TestController extends Controller
 }
 ```
 
+Installation
+------
+### Add the package to your dependencies
+
+``` yaml
+"require": {
+    "ratepay/payment-bundle": "dev-master",
+    ....
+},
+```
+
+### Register the bundle in your kernel
+
+``` php
+public function registerBundles()
+{
+    $bundles = array(
+    // ...
+    new Ratepay\Bundle\PaymentBundle\RatepayPaymentBundle(),
+);
+```
+
+### Update your packages
+
+```
+php composer.phar update lunetics/locale-bundle
+```
+
 Configuration
 ------
 ``` yaml
@@ -71,7 +99,7 @@ Configuration
 For listing all available models and tools please run:
 
 ``` shell
-php app/console container:debug |grep ratepay
+php app/console container:debug | grep ratepay
 ```
 
 
