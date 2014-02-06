@@ -1,0 +1,58 @@
+parameters:
+    ratepay_payment.model.paymentini.class:              Ratepay\Bundle\PaymentBundle\Model\PaymentInit
+    ratepay_payment.model.confirmationdelivery.class:    Ratepay\Bundle\PaymentBundle\Model\ConfirmationDelivery
+    ratepay_payment.model.paymentchange.class:           Ratepay\Bundle\PaymentBundle\Model\PaymentChange
+    ratepay_payment.model.paymentconfirm.class:          Ratepay\Bundle\PaymentBundle\Model\PaymentConfirm
+    ratepay_payment.model.paymentrequest.class:          Ratepay\Bundle\PaymentBundle\Model\PaymentRequest
+    ratepay_payment.model.profilerequest.class:          Ratepay\Bundle\PaymentBundle\Model\ProfileRequest
+    ratepay_payment.model.submodel.address.class:        Ratepay\Bundle\PaymentBundle\Model\SubModel\Address
+    ratepay_payment.model.submodel.bankaccount.class:    Ratepay\Bundle\PaymentBundle\Model\SubModel\BankAccount
+    ratepay_payment.model.submodel.customer.class:       Ratepay\Bundle\PaymentBundle\Model\SubModel\Customer
+    ratepay_payment.model.submodel.item.class:           Ratepay\Bundle\PaymentBundle\Model\SubModel\Item
+    ratepay_payment.model.submodel.head.class:           Ratepay\Bundle\PaymentBundle\Model\SubModel\Head
+    ratepay_payment.model.submodel.payment.class:        Ratepay\Bundle\PaymentBundle\Model\SubModel\Payment
+    ratepay_payment.model.submodel.shoppingbasket.class: Ratepay\Bundle\PaymentBundle\Model\SubModel\ShoppingBasket
+    ratepay_payment.service.util.class:                  Ratepay\Bundle\PaymentBundle\Service\Util
+
+services:
+    ratepay_payment.model.paymentinit:
+        class: %ratepay_payment.model.paymentini.class%
+
+    ratepay_payment.model.confirmationdelivery:
+        class: %ratepay_payment.model.confirmationdelivery.class%
+
+    ratepay_payment.model.paymentchange:
+        class: %ratepay_payment.model.paymentchange.class%
+
+    ratepay_payment.model.paymentconfirm:
+        class: %ratepay_payment.model.paymentconfirm.class%
+
+    ratepay_payment.model.paymentrequest:
+        class: %ratepay_payment.model.paymentrequest.class%
+
+    ratepay_payment.model.profilerequest:
+        class: %ratepay_payment.model.profilerequest.class%
+
+    ratepay_payment.model.submodel.address:
+        class: %ratepay_payment.model.submodel.address.class%
+
+    ratepay_payment.model.submodel.bankaccount:
+        class: %ratepay_payment.model.submodel.bankaccount.class%
+
+    ratepay_payment.model.submodel.customer:
+        class: %ratepay_payment.model.submodel.customer.class%
+
+    ratepay_payment.model.submodel.item:
+        class: %ratepay_payment.model.submodel.item.class%
+
+    ratepay_payment.model.submodel.head:
+        class: %ratepay_payment.model.submodel.head.class%
+
+    ratepay_payment.model.submodel.payment:
+        class: %ratepay_payment.model.submodel.payment.class%
+
+    ratepay_payment.model.submodel.shoppingbasket:
+        class: %ratepay_payment.model.submodel.shoppingbasket.class%
+
+    ratepay_payment.service.util:
+        class: %ratepay_payment.service.util.class%

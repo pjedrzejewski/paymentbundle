@@ -1,0 +1,32 @@
+{
+    "name": "ratepay/payment-bundle",
+    "type": "symfony-bundle",
+    "description": "RatePAY PaymentBunde",
+    "keywords": ["Payment"],
+    "homepage": "http://github.com/ratepay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "soeren martius",
+            "email": "soeren.martius@googlemail.com",
+            "homepage": "https://github.com/caramba1337"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "~2.1"
+    },
+    "require-dev": {
+        "symfony/yaml": "~2.1"
+    },
+    "autoload": {
+        "psr-0": { "Ratepay\Bundle\PaymentBundle": "" }
+    },
+    "target-dir": "Ratepay\Bundle/PaymentBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
