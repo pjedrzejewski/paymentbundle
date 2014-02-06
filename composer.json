@@ -21,7 +21,7 @@
         "symfony/yaml": "~2.1"
     },
     "autoload": {
-        "psr-0": { "Ratepay\Bundle\PaymentBundle": "" }
+        "psr-0": { "Ratepay\\Bundle\\PaymentBundle": "" }
     },
     "target-dir": "Ratepay/Bundle/PaymentBundle",
     "extra": {
