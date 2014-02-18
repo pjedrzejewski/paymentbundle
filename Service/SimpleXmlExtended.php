@@ -16,8 +16,8 @@
         public function addCDataChild($sName, $sValue)
         {
             $oNodeOld = dom_import_simplexml($this);
-            $oNodeNew = new DOMNode();
-            $oDom = new DOMDocument();
+            $oNodeNew = new \DOMNode();
+            $oDom = new \DOMDocument();
             $oDataNode = $oDom->appendChild($oDom->createElement($sName));
             $oDataNode->appendChild($oDom->createCDATASection($this->removeSpecialChars($sValue)));
             $oNodeTarget = $oNodeOld->ownerDocument->importNode($oDataNode, true);
