@@ -37,7 +37,7 @@
          * @param string $amount
          */
         public function setAmount($amount) {
-            $this->_amount = number_format((float)$amount, 2, '.', '');;
+            $this->amount = number_format((float)$amount, 2, '.', '');;
         }
 
         /**
